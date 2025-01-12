@@ -1,0 +1,21 @@
+.home-container {
+    background-color: antiquewhite;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.home-heading {
+    font-family: 'Roboto';
+    font-weight: 600;
+}
+.invoice-link{
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: blue;
+    text-decoration: none;
+   font-size: 20px;
+}

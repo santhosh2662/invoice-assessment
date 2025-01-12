@@ -1,0 +1,25 @@
+.invoice-container {
+    background-color: antiquewhite;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.invoice-container {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 20px;
+}
+.submit-button {
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+    font-size: 1.2rem;
+    text-align: center;
+    cursor: pointer;
+}

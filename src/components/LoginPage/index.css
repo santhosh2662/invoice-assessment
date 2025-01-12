@@ -1,0 +1,68 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: antiquewhite;
+    flex-direction: column;
+    text-align: center;
+}
+.login-header {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-family: serif;
+    color: #333333;
+}
+.input-container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+.email {
+    margin-bottom: 1rem;
+    font-family: 'roboto';
+    font-style: italic;
+    font-size: 1.2rem;
+    padding-right: 1rem;
+    color: brown;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.form-control {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 300px;
+}
+.password {
+    margin-bottom: 1rem;
+    font-family: 'roboto';
+    font-style: italic;
+    font-size: 1.2rem;
+    padding-right: 1rem;
+    color: brown;
+    font-weight: bold;   
+}
+.login-button {
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+    font-size: 1.2rem;
+    text-align: center;
+    cursor: pointer;
+}
+.new-user {
+    border: none;
+    background-color: transparent;
+    color: blue;
+    text-decoration: underline;
+    font-family: 'Roboto';
+    font-size: 20px;
+    align-self: flex-end;
+    justify-self: flex-end;
+    cursor: pointer;
+}
